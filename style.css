@@ -191,14 +191,7 @@ section {
   overflow: hidden;
 }
 
-.message-card::before {
-  content: "❤";
-  position: absolute;
-  font-size: 9rem;
-  color: rgba(233, 138, 167, 0.12);
-  top: -35px;
-  right: 25px;
-}
+
 
 .message-card p {
   font-size: clamp(1.05rem, 2vw, 1.35rem);
