@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Mom ❤️</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Floating hearts/stars/balloons will be added here using JavaScript -->
+  <div class="floating-container" id="floatingContainer"></div>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="home">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <p class="small-title">A little surprise for you</p>
+      <h1>Happy Birthday Mom ❤️</h1>
+      <p class="hero-subtitle">To the most beautiful soul in my life</p>
+      <button class="primary-btn" id="openSurpriseBtn">Open Your Surprise</button>
+    </div>
+  </header>
+
+  <!-- BIRTHDAY MESSAGE SECTION -->
+  <section class="message-section" id="message">
+    <div class="section-heading">
+      <p>From my heart</p>
+      <h2>A Birthday Message For You</h2>
+    </div>
+
+    <div class="message-card">
+      <!-- You can replace this message with your own personal message -->
+      <p>
+        “Dear Mom, today is all about celebrating you. Thank you for your endless love, care,
+        sacrifices, and support. You are my first teacher, my biggest strength, and my safest place.
+        I may not say it every day, but I love you more than words can explain.
+        Happy Birthday, Mom ❤️”
+      </p>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY SECTION -->
+  <section class="gallery-section" id="gallery">
+    <div class="section-heading">
+      <p>Beautiful memories</p>
+      <h2>Our Sweet Photo Gallery</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <!-- Replace these image paths with your mom's real photos -->
+      <!-- Example: images/mom-smiling.jpg -->
+      <div class="gallery-item"><img src="images/photo1.jpg" alt="Mom photo 1"></div>
+      <div class="gallery-item"><img src="images/photo2.jpg" alt="Mom photo 2"></div>
+      <div class="gallery-item"><img src="images/photo3.jpg" alt="Mom photo 3"></div>
+      <div class="gallery-item"><img src="images/photo4.jpg" alt="Mom photo 4"></div>
+      <div class="gallery-item"><img src="images/photo5.jpg" alt="Mom photo 5"></div>
+      <div class="gallery-item"><img src="images/photo6.jpg" alt="Mom photo 6"></div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX POPUP -->
+  <div class="lightbox" id="lightbox">
+    <span class="close-lightbox" id="closeLightbox">&times;</span>
+    <img src="" alt="Large preview" id="lightboxImage">
+  </div>
+
+  <!-- MEMORY TIMELINE SECTION -->
+  <section class="timeline-section" id="timeline">
+    <div class="section-heading">
+      <p>Little feelings, big memories</p>
+      <h2>Moments That Mean Everything</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-card">
+        <span>😊</span>
+        <h3>The smile that makes home feel complete</h3>
+        <p>Your smile has the magic to make every worry feel small.</p>
+      </div>
+
+      <div class="timeline-card">
+        <span>🤍</span>
+        <h3>The love that never asks for anything in return</h3>
+        <p>You give so much love without expecting anything back.</p>
+      </div>
+
+      <div class="timeline-card">
+        <span>🌷</span>
+        <h3>The strongest woman I know</h3>
+        <p>Your strength, patience, and courage inspire me every day.</p>
+      </div>
+
+      <div class="timeline-card">
+        <span>✨</span>
+        <h3>My forever blessing</h3>
+        <p>Having you as my mom is the greatest gift of my life.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- REASONS I LOVE YOU SECTION -->
+  <section class="reasons-section" id="reasons">
+    <div class="section-heading">
+      <p>Why you are special</p>
+      <h2>Reasons I Love You</h2>
+    </div>
+
+    <div class="reasons-grid">
+      <div class="reason-card">❤️ <h3>Your love makes everything better</h3></div>
+      <div class="reason-card">🌸 <h3>Your smile gives me strength</h3></div>
+      <div class="reason-card">🌟 <h3>You always believe in me</h3></div>
+      <div class="reason-card">🏡 <h3>You make our house a home</h3></div>
+      <div class="reason-card">👑 <h3>You are my biggest blessing</h3></div>
+    </div>
+  </section>
+
+  <!-- FINAL SURPRISE SECTION -->
+  <section class="surprise-section" id="surprise">
+    <div class="surprise-card">
+      <p class="small-title">One last thing...</p>
+      <h2>There is a special message for you 💝</h2>
+
+      <button class="primary-btn" id="specialMessageBtn">Click for a Special Message</button>
+
+      <!-- Hidden message shown with JavaScript -->
+      <p class="hidden-message" id="hiddenMessage">
+        “Mom, you are not just my mother, you are my world. I promise to always make you proud.
+        Happy Birthday, I love you forever ❤️”
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Made with love by your child <span class="glow-heart">❤️</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
